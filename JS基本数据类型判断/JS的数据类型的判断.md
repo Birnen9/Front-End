@@ -36,4 +36,6 @@
 
             3.4、Object.prototype.toString.call()的说明
                 调用该方法，统一返回的格式是'[object xxx]'的字符串形式
-                     
+
+                一个很重要的点就是为什么要使用这个方法：
+                https://blog.doiduoyi.com/articles/1607052417279.html                     
