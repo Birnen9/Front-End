@@ -8,7 +8,7 @@ import axios from axios
                 baseURL:'https://api.gethub.com',
                 //url:'repos/{owner}/{repo}/issues/{issues_number}'
                 url:'repos/Birne9/Vue/issues/123',
-                method:'post',
+                method:'patch',
                 data:{
                     title:'代码敲了吗',
                     body:'好好敲代码，好好生活'
