@@ -42,3 +42,10 @@
         export function deleteIssues({id}){
             return axiosInstance.delete(`repos/Birne9/Vue/issues/${id}/lock`)
         }
+
+4、配置的优先级 & 拦截器
+    全局的默认配置
+    axios.default.baseURL
+    实例配置
+    发请求时的配置
+    请求拦截器第一个回调中的config
