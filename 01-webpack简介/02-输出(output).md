@@ -34,6 +34,6 @@
             }
         }; 
         如果在编译时，不知道最终输出文件的`publicPath`是什么地址，则可以将其留空，并且在运行时，通过入口起点文件中 `__webpack_public_path__`动态设置
-```     
+    
          __webpack_public_path__ = myRuntimePublicPath;
         // 应用程序入口的其余部分
