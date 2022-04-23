@@ -4,7 +4,7 @@ function MVVM(options){
     this.$options = options; //将配置项 options 添加到实例对象中
     var data=this._data=this.$options.data;     //将 配置项 options 中的data 转绑到 vm 实例对象的_data中
     var me=this;
-
+    // 实现数据代理
     // object.keys(data): 拿到data所有可枚举属性组成的数组
     Object.keys(data).forEach(function(key){
         //key :data 中一个个可枚举属性,下划线开头都是私有属性和私有方法
